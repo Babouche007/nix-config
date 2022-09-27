@@ -1,0 +1,3 @@
+This is a nixos config repo. To use it you just need to clone the repo 
+using the ssh key and start ./init.sh to install all depenencies.
+Then you need to set allacrity as default term and start polybar.
