@@ -4,8 +4,6 @@ nix-channel --update
 
 nix-env -iA nixos-unstable.home-manager
 
-git clone https://github.com/cryx3001/nvim-config.git ~/.config/nvim &
-
 mkdir -p ~/.config/nixpkgs
 cp ./home.nix ~/.config/nixpkgs/
 
