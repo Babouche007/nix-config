@@ -9,6 +9,6 @@ in
 	programs.zsh = import ./zsh/zsh.nix {};
 #	programs.picom = import ./picom/picom.nix {};
 	programs.alacritty = import ./alacritty/alacritty.nix pkgs;
-#	programs.polybar = import ./polybar/polybar.nix pkgs;
+	services.polybar = import ./polybar/polybar.nix pkgs;
 
 }
