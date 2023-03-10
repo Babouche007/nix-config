@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Creating / updating needed channel and preparing nvim config"
-nix-channel --add https://nixos.org/channels/nixos-22.11 nixos-stable
+nix-channel --add https://nixos.org/channels/nixos-22.13 nixos-stable
 nix-channel --update
 
 nix-env -iA nixos-stable.home-manager
