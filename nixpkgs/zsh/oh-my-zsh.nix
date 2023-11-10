@@ -2,5 +2,5 @@
 
 {
 	enable = true;
-	theme = "fino-time";
+	theme = "babouche";
 }

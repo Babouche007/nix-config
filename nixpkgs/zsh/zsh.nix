@@ -1,12 +1,13 @@
 {...}:
 
 {
-	enable = true;
-	shellAliases = {
-		".." = "cd ..";
-		la = "ls -al";
-	};
-	oh-my-zsh = import ./oh-my-zsh.nix {};
-	zplug = import ./zplug.nix {};
+  enable = true;
+  shellAliases = {
+    ".." = "cd ..";
+    la = "ls -al";
+    cat = "bat";
+  };
+  zplug = import ./zplug.nix {};
+  oh-my-zsh = import ./oh-my-zsh.nix {};
 }
 

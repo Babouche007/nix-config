@@ -6,7 +6,8 @@
 	{ name = "zsh-users/zsh-autosuggestions";}
 	{ name = "zsh-users/zsh-syntax-highlighting";}
 	{ name = "zsh-users/zsh-completions";}
-	{ name = "wting/autojump";}
+  { name = "wting/autojump";}
+  { name = "sorin-ionescu/prezto";}
 	];
 }
 

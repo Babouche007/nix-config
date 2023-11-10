@@ -1,7 +1,7 @@
 {pkgs, ...}:
 
 let
-familly_font = " Liberation Mono";
+familly_font = "Deja Vu Sans Mono";
 in
 {
 	enable = true;
