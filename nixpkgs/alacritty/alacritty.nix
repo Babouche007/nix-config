@@ -24,9 +24,6 @@ in
 				style = "Bold Italic";
 			};
 		};
-		shell = {
-			program = "${pkgs.zsh}/bin/zsh";
-		};
 	};
 }
 
